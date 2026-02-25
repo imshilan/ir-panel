@@ -13,7 +13,7 @@ from urllib.request import urlopen, Request
 __version__ = "1.1.0"
 GITHUB_REPO = "imshilan/ir-panel"
 BRANCH = "main"
-RAW_MAIN_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/ir-panel.sh"
+RAW_MAIN_URL = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{BRANCH}/ir-panel.py"
 
 SERVICE_DIR = "/etc/systemd/system"
 CACHE_DIR = Path("/var/lib/ir-panel")
